@@ -13,3 +13,6 @@
 
 6.	**_git push origin <nom_de_votre_branche>_** : Poussez les modifications résolues sur GitHub.
 
+7.	**git pull --rebase origin main** : pour la récupération des changements distant et placer ses propres changements localement après le changement distant
+
+8.	**git rebase --continue** : réorganisation des commits et intégration des modifications d'une autre branche 
