@@ -27,19 +27,19 @@ Si tout est configuré correctement, vous devriez voir un message comme celui-ci
 	
 Après avoir créer une répositorie dans Github, on saisit les commandes suivantes pour configurer un README.md : 
 
-	**echo "# kabylie" >> README.md**
+	echo "# kabylie" >> README.md
 	
-	**git init**
+	git init
 	
-	**git add README.md**
+	git add README.md
 	
-	**git commit -m "first commit"**
+	git commit -m "first commit"
 	
-	**git branch -M main**
+	git branch -M main
 	
-	**git remote add origin git@github.com:Jonas-lni/kabylie.git**
+	git remote add origin git@github.com:Jonas-lni/kabylie.git
 	
-	**git push -u origin main**
+	git push -u origin main
 	
 Lorsqu'on fait un commit : **git commit -m "first commit"**  ça ne marchera pas parceque depuis 2013 _l'authentification a été supprimée_ alors on poursuit les étapes suivantes sur la ligne de commande du serveur ssh bien sûr :
 	
